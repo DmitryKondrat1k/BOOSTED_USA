@@ -745,7 +745,7 @@ svg:not(:root) {
       margin: 0;
    }
    .videos__item iframe {
-      padding: 0 15px;
+      padding: 0 10px;
    }
 }
 /* =================================== */
