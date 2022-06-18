@@ -738,11 +738,16 @@ svg:not(:root) {
       gap: 20px;
    }
    .videos__item {
-      padding-bottom: 50%;
+      padding-bottom: 60%;
+      margin-bottom: 20px;
    }
+   .videos__item:last-child {
+      margin: 0;
+   }
+
    .videos__item iframe {
-      width: 80%;
-      left: 11.5%;
+      width: 85%;
+      left: 8%;
    }
 }
 /* =================================== */
@@ -970,7 +975,7 @@ svg:not(:root) {
 }
 
 .about__links a:hover {
-   color: #ff4a32;
+   color: #f35b47;
    transition: all 0.2s ease-in;
 }
 
@@ -1026,6 +1031,9 @@ svg:not(:root) {
    }
    .about__list a {
       font-size: 20px;
+   }
+   .about__links a{
+      color:#f5351c;
    }
 }
 
