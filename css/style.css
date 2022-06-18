@@ -744,10 +744,8 @@ svg:not(:root) {
    .videos__item:last-child {
       margin: 0;
    }
-
    .videos__item iframe {
-      width: 85%;
-      left: 8%;
+      padding: 0 15px;
    }
 }
 /* =================================== */
