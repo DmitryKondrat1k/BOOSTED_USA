@@ -8,6 +8,7 @@
    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
    <link rel="stylesheet" href="css/style.css">
    <link rel="stylesheet" href="css/reset.css">
+   <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
    <title>BOOSTED.USA</title>
 </head>
 
@@ -242,6 +243,55 @@
             </div>
          </section>
 
+         <section class="slider">
+            <h1 class="title">Looking for Accessories?</h1>
+
+            <!------- SLIDER ----------->
+            <div class="card-slider swiper-container">
+               <div class="card-slider__wrapper swiper-wrapper">
+                  <div class="card-slider__slide swiper-slide">
+                     <div class="card-slider__image">
+                        <img src="img/Accessories_images/image_1.png" alt="image">
+                        <div class="item__title">Rev Tube</div>
+                        <div class="item__price item__price-1">$16.00</div>
+                     </div>
+                  </div>
+                  <div class="card-slider__slide swiper-slide">
+                     <div class="card-slider__image">
+                        <img src="img/Accessories_images/image_2.png" alt="image">
+                     </div>
+                  </div>
+                  <div class="card-slider__slide swiper-slide">
+                     <div class="card-slider__image">
+                        <img src="img/Accessories_images/image_3.png" alt="image">
+                     </div>
+                  </div>
+                  <div class="card-slider__slide swiper-slide">
+                     <div class="card-slider__image">
+                        <img src="img/Accessories_images/image_4.png" alt="image">
+                     </div>
+                  </div>
+                  <div class="card-slider__slide swiper-slide">
+                     <div class="card-slider__image">
+                        <img src="img/Accessories_images/image_5.png" alt="image">
+                     </div>
+                  </div>
+                  <div class="card-slider__slide swiper-slide">
+                     <div class="card-slider__image">
+                        <img src="img/Accessories_images/image_6.png" alt="image">
+                     </div>
+                  </div>
+                  <div class="card-slider__slide swiper-slide">
+                     <div class="card-slider__image">
+                        <img src="img/Accessories_images/image_7.png" alt="image">
+                     </div>
+                  </div>
+               </div>
+               <div class="swiper-button-prev"></div>
+               <div class="swiper-button-next"></div> 
+               <div class="swiper-pagination"></div>     
+            </div>
+         </section>
          <!-- <section class="accessories">
             <div class="container">
                <div class="accessories__title title">Looking for Accessories?</div>
@@ -458,8 +508,25 @@
       </footer>
    </div>
 
-   <!-- SCRIPTS -->
+   <!-------- SCRIPTS ----------->
    <script src="js/script.js"></script>
+
+   <!------- import SWIPER SLIDER ----------->
+   <script type="module">
+      import Swiper from 'https://unpkg.com/swiper@8/swiper-bundle.esm.browser.min.js'
+      const swiper = new Swiper('.card-slider')
+      new Swiper('.card-slider', {
+      // arrows
+      navigation: {
+         nextEl: '.swiper-button-next',
+         prevEl: '.swiper-button-prev'
+      },
+      pagination:{
+         el: '.swiper-pagination',
+         clickable: true,
+      }
+   });
+   </script>
 </body>
 
 </html>
