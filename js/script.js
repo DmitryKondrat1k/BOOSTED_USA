@@ -29,4 +29,3 @@ header__list.onclick = function () {
 
 console.log(object);
 
-
