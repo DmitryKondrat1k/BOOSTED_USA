@@ -701,12 +701,12 @@ svg:not(:root) {
 /*================================================ */
 
 .videos {
-   padding: 55px 0px;
+   padding: 55px 15px;
 }
 
 .videos__row {
    display: flex;
-   gap: 15px;
+   gap: 35px;
 }
 .videos__item {
    flex: 0 1 50%;
@@ -732,7 +732,6 @@ svg:not(:root) {
    }
    .videos__item {
       padding-bottom: 70%;
-      margin-bottom: 35px;
    }
    .videos__item:last-child {
       margin: 0;
