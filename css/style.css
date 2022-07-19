@@ -722,16 +722,13 @@ svg:not(:root) {
 
 @media (max-width: 767px) {
    .videos {
-      padding: 45px 0px;
+      padding: 45px 10px;
    }
    .videos__row {
       flex-direction: column;
    }
    .videos__item {
       padding-bottom: 55%;
-   }
-   .videos__item iframe {
-      padding: 0 15px;
    }
 }
 /* =================================== */
