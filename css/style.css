@@ -57,23 +57,8 @@ svg:not(:root) {
    padding: 15px 0;
 }
 
-@media (max-width: 425px){
-   .top__fixed{
-      display: none;
-   }
-}
-
 .header {
    padding: 20px 15px 0 15px;
-}
-
-@media (max-width: 425px){
-   .header {
-      padding: 0 15px 0 15px;
-   } 
-   .header__body {
-      height: 67px;
-   }
 }
 
 .header__body {
@@ -102,7 +87,7 @@ svg:not(:root) {
    padding-left: 22px;
 }
 
-.header__link {
+.header__link{
    color: #000;
 }
 
@@ -116,8 +101,20 @@ svg:not(:root) {
    padding-top: 15px;
 }
 
-.header__login {
-   padding-right: 15px;
+.icon__basket {
+   margin: 0 20px;
+}
+
+@media (max-width: 425px){
+   .top__fixed{
+      display: none;
+   }
+   .header {
+      padding: 0 15px;
+   } 
+   .header__body {
+      height: 67px;
+   }
 }
 
 /* ======== BURGER ====== */
@@ -731,10 +728,10 @@ svg:not(:root) {
       flex-direction: column;
    }
    .videos__item {
-      padding-bottom: 70%;
+      /* padding-bottom: 70%; */
    }
    .videos__item:last-child {
-      margin: 0;
+      /* margin: 0; */
    }
    .videos__item iframe {
       padding: 0 15px;
