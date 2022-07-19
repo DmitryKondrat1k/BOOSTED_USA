@@ -703,6 +703,7 @@ svg:not(:root) {
 
 .videos__row {
    display: flex;
+   gap: 30px;
 }
 
 .videos__item {
@@ -728,7 +729,7 @@ svg:not(:root) {
       flex-direction: column;
    }
    .videos__item {
-      padding-bottom: 40%;
+      padding: 30%;
    }
 }
 /* =================================== */
