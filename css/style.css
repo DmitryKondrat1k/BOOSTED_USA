@@ -728,7 +728,7 @@ svg:not(:root) {
       flex-direction: column;
    }
    .videos__item {
-      padding-bottom: 60%;
+      padding-bottom: 70%;
    }
 }
 /* =================================== */
