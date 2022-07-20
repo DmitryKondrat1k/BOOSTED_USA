@@ -101,6 +101,11 @@ svg:not(:root) {
    padding-top: 15px;
 }
 
+.header__icons>a>svg:hover path {
+   fill: #f5351c;
+   transition: all ease-out 0.2s;
+} 
+
 .icon__basket {
    margin: 0 20px;
 }
